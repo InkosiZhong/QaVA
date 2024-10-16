@@ -14,7 +14,7 @@ class IndexConfig:
         self.do_infer = True # Boolean that allows you to either compute embeddings or load them from cache
         
         self.batch_size = 16 # general batch size for both the target and embedding dnn
-        self.nb_train = 3000 # controls how many datapoints are labeled to perform the triplet training
+        self.nb_train = 7000 # controls how many datapoints are labeled to perform the triplet training
         self.train_lr = 1e-4
         self.max_training_epochs = int(1e6)
         self.early_stop = 5

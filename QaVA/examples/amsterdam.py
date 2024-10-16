@@ -133,7 +133,7 @@ class AmsterdamOfflineConfig(QaVA.IndexConfig):
         self.do_infer = True
         
         self.batch_size = 1024
-        self.nb_train = 3000
+        self.nb_train = 7000
         self.train_lr = 1e-3
         self.max_training_epochs = 500
         self.early_stop = 2
